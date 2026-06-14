@@ -1,0 +1,73 @@
+{
+  "api": "google-calendar-api",
+  "calendar_id": "primary",
+  "events": [
+    {
+      "id": "evt_load_4728_20261010",
+      "summary": "Ridgeline load 4728 - Birmingham to Nashville lane",
+      "start": {
+        "dateTime": "2026-10-10T05:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-10-10T14:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "status": "confirmed",
+      "location": "Birmingham terminal outbound",
+      "description": "Protect HOS window. No side errands on outbound leg. Dispatch contact Mike Hensley. Route/load detail is sensitive outside approved recipients.",
+      "source_artifact": "Ridgeline_load_4728_print.pdf",
+      "sensitivity": "private"
+    },
+    {
+      "id": "evt_fedex_hold_deadline_20261010",
+      "summary": "FedEx hold option deadline - CPAP shipment",
+      "start": {
+        "dateTime": "2026-10-10T15:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-10-10T15:15:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "status": "confirmed",
+      "location": "Birmingham Ship Center",
+      "description": "Hold option closes at 3:00 PM for tracking 7846 1093 5521. Do not add pickup or hold action during protected load window without Anthony approval.",
+      "source_artifact": "Calendar_print_1009_1011.pdf",
+      "sensitivity": "private"
+    },
+    {
+      "id": "evt_home_time_oct_2026",
+      "summary": "Home time window - tentative",
+      "start": {
+        "dateTime": "2026-10-26T08:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-10-31T20:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "status": "tentative",
+      "location": "Birmingham / Tuscaloosa family errands",
+      "description": "Home time is protected. Confirm before scheduling anything inside this window.",
+      "source_artifact": "Calendar_oct_home_time.pdf",
+      "sensitivity": "private"
+    },
+    {
+      "id": "evt_janelle_call_20261010",
+      "summary": "Call Janelle",
+      "start": {
+        "dateTime": "2026-10-10T19:30:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "end": {
+        "dateTime": "2026-10-10T20:00:00-05:00",
+        "timeZone": "America/Chicago"
+      },
+      "status": "confirmed",
+      "location": "phone",
+      "description": "Family call. Do not include CPAP or bank detail unless Anthony explicitly asks to share it.",
+      "sensitivity": "private"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "api": "fedex-api",
+  "shipments": [
+    {
+      "tracking_number": "784610935521",
+      "display_tracking_number": "7846 1093 5521",
+      "carrier": "FedEx",
+      "status": "delivery_exception",
+      "shipper": "Restwell Medical Supply",
+      "recipient_name": "Anthony Hicks",
+      "recipient_reference": "Cloverdale Commons Unit 108",
+      "order_reference": "RS-10-06-7741",
+      "invoice_reference": "RW-261006-74",
+      "package_reference": "RWM-44219 / DSE-971-2846",
+      "service_type": "FedEx Home Delivery",
+      "weight_lbs": 2.4,
+      "label_created_at": "2026-10-08T16:18:00-05:00",
+      "last_updated_at": "2026-10-10T07:56:00-05:00",
+      "source_artifacts": [
+        "FX_784610935521_label.pdf",
+        "FedEx_DoorTag_1009.pdf"
+      ]
+    },
+    {
+      "tracking_number": "781244702088",
+      "display_tracking_number": "7812 4470 2088",
+      "carrier": "FedEx",
+      "status": "delivered",
+      "shipper": "Restwell Medical Supply",
+      "recipient_name": "Anthony Hicks",
+      "recipient_reference": "Cloverdale Commons Unit 108",
+      "order_reference": "RS-04-16-1189",
+      "invoice_reference": "RW-260416-31",
+      "package_reference": "April replacement filter pack",
+      "service_type": "FedEx Home Delivery",
+      "weight_lbs": 0.8,
+      "delivered_at": "2026-04-18T13:12:00-05:00",
+      "is_current_order": false,
+      "source_artifacts": [
+        "FX_781244702088_notice.pdf"
+      ]
+    }
+  ]
+}

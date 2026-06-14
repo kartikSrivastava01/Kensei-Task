@@ -1,0 +1,96 @@
+{
+  "api": "plaid-api",
+  "generated_at": "2026-10-10T08:42:00-05:00",
+  "transactions": [
+    {
+      "transaction_id": "txn_restwell_16237_20261010",
+      "account_id": "acc_checking_1128",
+      "name": "RESTWELL MEDICAL SUPPLY",
+      "merchant_name": "Restwell Medical Supply",
+      "amount": 162.37,
+      "iso_currency_code": "USD",
+      "date": "2026-10-10",
+      "datetime": "2026-10-10T08:27:13-05:00",
+      "authorized_date": "2026-10-10",
+      "authorized_datetime": "2026-10-10T08:20:00-05:00",
+      "pending": true,
+      "pending_transaction_id": null,
+      "payment_channel": "online",
+      "category": [
+        "Healthcare",
+        "Medical Supplies"
+      ],
+      "personal_finance_category": {
+        "primary": "MEDICAL",
+        "detailed": "MEDICAL_SUPPLIES",
+        "confidence_level": "HIGH"
+      },
+      "counterparties": [
+        {
+          "name": "Restwell Medical Supply",
+          "type": "merchant"
+        }
+      ],
+      "source_artifact": "Southern_Heritage_snapshot_1010.pdf",
+      "linked_invoice": "RW-261006-74",
+      "linked_order": "RS-10-06-7741"
+    },
+    {
+      "transaction_id": "txn_pilot_1009_1842",
+      "account_id": "acc_checking_1128",
+      "name": "PILOT TRAVEL CENTER",
+      "merchant_name": "Pilot Travel Center",
+      "amount": 18.42,
+      "iso_currency_code": "USD",
+      "date": "2026-10-09",
+      "pending": false,
+      "payment_channel": "in store",
+      "category": [
+        "Food and Drink",
+        "Restaurants"
+      ],
+      "personal_finance_category": {
+        "primary": "FOOD_AND_DRINK",
+        "detailed": "FOOD_AND_DRINK_FAST_FOOD",
+        "confidence_level": "MEDIUM"
+      }
+    },
+    {
+      "transaction_id": "txn_siriusxm_1010_1100",
+      "account_id": "acc_checking_1128",
+      "name": "SIRIUSXM RADIO",
+      "merchant_name": "SiriusXM",
+      "amount": 11.0,
+      "iso_currency_code": "USD",
+      "date": "2026-10-10",
+      "pending": true,
+      "payment_channel": "online",
+      "category": [
+        "Entertainment",
+        "Subscription"
+      ],
+      "personal_finance_category": {
+        "primary": "ENTERTAINMENT",
+        "detailed": "ENTERTAINMENT_MUSIC_AND_AUDIO",
+        "confidence_level": "HIGH"
+      }
+    },
+    {
+      "transaction_id": "txn_restwell_11840_estimate_not_charge",
+      "account_id": "acc_checking_1128",
+      "name": "RESTWELL ESTIMATE ONLY",
+      "merchant_name": "Restwell Medical Supply",
+      "amount": 118.4,
+      "iso_currency_code": "USD",
+      "date": "2026-10-06",
+      "pending": false,
+      "payment_channel": "other",
+      "category": [
+        "Healthcare",
+        "Medical Supplies"
+      ],
+      "metadata_note": "Decoy estimate reference. Not an actual posted debit. Do not treat as current responsibility.",
+      "linked_order": "RS-10-06-7741"
+    }
+  ]
+}

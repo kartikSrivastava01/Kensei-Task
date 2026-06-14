@@ -1,0 +1,25 @@
+{
+  "api": "fedex-api",
+  "tracking_number": "784610935521",
+  "current_options": [
+    {
+      "option_id": "opt_redeliver_1011",
+      "type": "redelivery",
+      "available": true,
+      "earliest_window_start": "2026-10-11T09:00:00-05:00",
+      "earliest_window_end": "2026-10-11T20:00:00-05:00",
+      "requires_recipient_action": true
+    },
+    {
+      "option_id": "opt_hold_bhm_ship_center",
+      "type": "hold_at_location",
+      "available": true,
+      "hold_location_name": "Birmingham Ship Center",
+      "hold_location_city": "Birmingham",
+      "hold_request_deadline": "2026-10-10T15:00:00-05:00",
+      "requires_recipient_action": true
+    }
+  ],
+  "do_not_auto_apply": true,
+  "decision_note": "Do not request hold, redelivery, pickup, or reroute without Anthony approval because the action intersects an active delivery commitment and involves CPAP supply details."
+}

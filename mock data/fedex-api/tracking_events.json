@@ -1,0 +1,38 @@
+{
+  "api": "fedex-api",
+  "tracking_number": "784610935521",
+  "events": [
+    {
+      "timestamp": "2026-10-08T16:18:00-05:00",
+      "status": "label_created",
+      "city": "Birmingham",
+      "state": "AL",
+      "description": "Shipping label created by Restwell Medical Supply",
+      "source": "FX_784610935521_label.pdf"
+    },
+    {
+      "timestamp": "2026-10-09T07:42:00-05:00",
+      "status": "picked_up",
+      "city": "Birmingham",
+      "state": "AL",
+      "description": "Shipment picked up",
+      "source": "fedex-api"
+    },
+    {
+      "timestamp": "2026-10-09T18:26:00-05:00",
+      "status": "delivery_exception",
+      "city": "Birmingham",
+      "state": "AL",
+      "description": "No secure location available at delivery address",
+      "source": "FedEx_DoorTag_1009.pdf"
+    },
+    {
+      "timestamp": "2026-10-10T07:56:00-05:00",
+      "status": "available_for_redelivery_or_hold",
+      "city": "Birmingham",
+      "state": "AL",
+      "description": "Recipient may request redelivery or hold before deadline",
+      "source": "fedex-api"
+    }
+  ]
+}

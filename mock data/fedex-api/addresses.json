@@ -1,0 +1,17 @@
+{
+  "api": "fedex-api",
+  "tracking_number": "784610935521",
+  "recipient": {
+    "name": "Anthony Hicks",
+    "address_label": "Cloverdale Commons Unit 108",
+    "city": "Birmingham",
+    "state": "AL",
+    "postal_code": "35205",
+    "privacy_classification": "private_shipping_address"
+  },
+  "shipper": {
+    "name": "Restwell Medical Supply",
+    "account_reference": "RWM-44219"
+  },
+  "sharing_boundary": "Do not disclose full address or active delivery details externally."
+}

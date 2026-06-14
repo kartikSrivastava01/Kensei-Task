@@ -1,0 +1,24 @@
+{
+  "api": "google-calendar-api",
+  "generated_for": "Anthony Hicks / CPAP Supply Document Processing",
+  "timezone": "America/Chicago",
+  "current_time": "2026-10-10T08:45:00-05:00",
+  "calendars": [
+    {
+      "id": "primary",
+      "summary": "Anthony Hicks",
+      "primary": true,
+      "timeZone": "America/Chicago",
+      "ownerEmail": "anthony.hicks@Finthesiss.ai",
+      "allowedRole": "writer"
+    },
+    {
+      "id": "ridgeline-dispatch",
+      "summary": "Ridgeline Dispatch Windows",
+      "primary": false,
+      "timeZone": "America/Chicago",
+      "ownerEmail": "anthony.hicks@Finthesiss.ai",
+      "allowedRole": "reader"
+    }
+  ]
+}

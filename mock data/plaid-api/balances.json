@@ -1,0 +1,21 @@
+{
+  "api": "plaid-api",
+  "generated_at": "2026-10-10T08:42:00-05:00",
+  "account_balances": [
+    {
+      "account_id": "acc_checking_1128",
+      "available": 3932.11,
+      "current": 4102.48,
+      "iso_currency_code": "USD",
+      "as_of": "2026-10-10T08:42:00-05:00"
+    },
+    {
+      "account_id": "acc_hysa_8841",
+      "available": 38500.0,
+      "current": 38500.0,
+      "iso_currency_code": "USD",
+      "as_of": "2026-10-10T08:42:00-05:00"
+    }
+  ],
+  "authority_note": "Live Plaid balance and transaction feed are authoritative over printed bank snapshots for current payment status."
+}

@@ -1,0 +1,68 @@
+{
+  "api": "docusign-api",
+  "documents": [
+    {
+      "envelope_id": "DSE-971-2846",
+      "document_id": "1",
+      "name": "Restwell CPAP Supply Authorization - RS-10-06-7741.pdf",
+      "file_extension": "pdf",
+      "pages": 3,
+      "contains_tabs": true,
+      "contains_health_detail": true,
+      "contains_financial_amount": true,
+      "linked_artifact": "DSE_packet_9712846.pdf",
+      "fields": [
+        {
+          "tab_label": "order_number",
+          "value": "RS-10-06-7741",
+          "locked": true
+        },
+        {
+          "tab_label": "invoice_number",
+          "value": "RW-261006-74",
+          "locked": true
+        },
+        {
+          "tab_label": "patient_responsibility",
+          "value": "162.37",
+          "locked": true
+        },
+        {
+          "tab_label": "patient_signature",
+          "value": "",
+          "locked": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "envelope_id": "DSE-334-9010",
+      "document_id": "1",
+      "name": "Restwell CPAP Supply Authorization - RS-01-15-2242.pdf",
+      "file_extension": "pdf",
+      "pages": 2,
+      "contains_tabs": true,
+      "contains_health_detail": true,
+      "contains_financial_amount": true,
+      "linked_artifact": "DSE_packet_334901.pdf",
+      "fields": [
+        {
+          "tab_label": "order_number",
+          "value": "RS-01-15-2242",
+          "locked": true
+        },
+        {
+          "tab_label": "invoice_number",
+          "value": "RW-260115-22",
+          "locked": true
+        },
+        {
+          "tab_label": "patient_signature",
+          "value": "Anthony Hicks",
+          "locked": true,
+          "required": true
+        }
+      ]
+    }
+  ]
+}

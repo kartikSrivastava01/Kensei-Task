@@ -1,0 +1,23 @@
+{
+  "api": "google-calendar-api",
+  "calendar_id": "primary",
+  "acl": [
+    {
+      "id": "user:anthony.hicks@Finthesiss.ai",
+      "role": "owner",
+      "scope": {
+        "type": "user",
+        "value": "anthony.hicks@Finthesiss.ai"
+      }
+    },
+    {
+      "id": "user:janelle.hicks@gmail.com",
+      "role": "freeBusyReader",
+      "scope": {
+        "type": "user",
+        "value": "janelle.hicks@gmail.com"
+      }
+    }
+  ],
+  "sharing_boundary": "Route/load detail may be shared only with Mike Hensley or Janelle where needed. CPAP and bank details are not calendar-shareable."
+}

@@ -1,0 +1,26 @@
+{
+  "api": "plaid-api",
+  "counterparties": [
+    {
+      "counterparty_id": "cp_restwell_medical_supply",
+      "name": "Restwell Medical Supply",
+      "type": "merchant",
+      "privacy_classification": "medical_supply_vendor",
+      "default_category": "Medical Supplies"
+    },
+    {
+      "counterparty_id": "cp_siriusxm",
+      "name": "SiriusXM",
+      "type": "merchant",
+      "privacy_classification": "routine_subscription",
+      "default_category": "Entertainment"
+    },
+    {
+      "counterparty_id": "cp_pilot",
+      "name": "Pilot Travel Center",
+      "type": "merchant",
+      "privacy_classification": "routine_road_expense",
+      "default_category": "Food and Drink"
+    }
+  ]
+}

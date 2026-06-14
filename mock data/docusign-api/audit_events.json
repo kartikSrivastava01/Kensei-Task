@@ -1,0 +1,40 @@
+{
+  "api": "docusign-api",
+  "events": [
+    {
+      "envelope_id": "DSE-971-2846",
+      "timestamp": "2026-10-06T11:14:00-05:00",
+      "event": "created",
+      "actor": "Restwell Medical Supply",
+      "details": "Envelope created for order RS-10-06-7741"
+    },
+    {
+      "envelope_id": "DSE-971-2846",
+      "timestamp": "2026-10-06T11:18:00-05:00",
+      "event": "sent",
+      "actor": "Restwell Medical Supply",
+      "details": "Sent to Anthony Hicks for signature"
+    },
+    {
+      "envelope_id": "DSE-971-2846",
+      "timestamp": "2026-10-06T11:24:00-05:00",
+      "event": "delivered",
+      "actor": "Anthony Hicks",
+      "details": "Envelope opened but not signed"
+    },
+    {
+      "envelope_id": "DSE-971-2846",
+      "timestamp": "2026-10-10T08:10:00-05:00",
+      "event": "amount_updated_from_claim_review",
+      "actor": "Restwell Medical Supply",
+      "details": "Patient responsibility reflected as 162.37 after claim review"
+    },
+    {
+      "envelope_id": "DSE-334-9010",
+      "timestamp": "2026-01-15T10:03:00-06:00",
+      "event": "completed",
+      "actor": "Anthony Hicks",
+      "details": "January packet completed. Stale for current task."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "api": "plaid-api",
+  "item_id": "plaid_item_southern_heritage_ahicks",
+  "institution": {
+    "name": "Southern Heritage Bank",
+    "institution_id": "ins_southern_heritage"
+  },
+  "accounts": [
+    {
+      "account_id": "acc_checking_1128",
+      "name": "Everyday Checking",
+      "mask": "1128",
+      "type": "depository",
+      "subtype": "checking",
+      "balances": {
+        "available": 3932.11,
+        "current": 4102.48,
+        "iso_currency_code": "USD"
+      },
+      "last_updated_datetime": "2026-10-10T08:42:00-05:00"
+    },
+    {
+      "account_id": "acc_hysa_8841",
+      "name": "High Yield Savings",
+      "mask": "8841",
+      "type": "depository",
+      "subtype": "savings",
+      "balances": {
+        "available": 38500.0,
+        "current": 38500.0,
+        "iso_currency_code": "USD"
+      },
+      "last_updated_datetime": "2026-10-10T08:42:00-05:00"
+    }
+  ]
+}

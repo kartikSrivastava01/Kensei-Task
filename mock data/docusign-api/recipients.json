@@ -1,0 +1,41 @@
+{
+  "api": "docusign-api",
+  "recipients": [
+    {
+      "envelope_id": "DSE-971-2846",
+      "recipient_id": "1",
+      "name": "Anthony Hicks",
+      "email": "anthony.hicks@Finthesiss.ai",
+      "role_name": "Patient",
+      "recipient_type": "signer",
+      "routing_order": "1",
+      "status": "sent",
+      "signed_datetime": null,
+      "delivered_datetime": "2026-10-06T11:24:00-05:00",
+      "privacy_classification": "sleep_therapy_authorization"
+    },
+    {
+      "envelope_id": "DSE-971-2846",
+      "recipient_id": "2",
+      "name": "Restwell Medical Supply Billing",
+      "email": "billing@restwell.example",
+      "role_name": "Billing Review",
+      "recipient_type": "carbon_copy",
+      "routing_order": "2",
+      "status": "created",
+      "privacy_classification": "vendor_internal"
+    },
+    {
+      "envelope_id": "DSE-334-9010",
+      "recipient_id": "1",
+      "name": "Anthony Hicks",
+      "email": "anthony.hicks@Finthesiss.ai",
+      "role_name": "Patient",
+      "recipient_type": "signer",
+      "routing_order": "1",
+      "status": "completed",
+      "signed_datetime": "2026-01-15T10:01:00-06:00",
+      "privacy_classification": "stale_sleep_therapy_authorization"
+    }
+  ]
+}
